@@ -1,0 +1,11 @@
+CITIES = ["Kurgan", "Ekaterinburg", "St.Painstburg"]
+
+FIRST_CITY, SECOND_CITY, THIRD_CITY = CITIES
+
+print(FIRST_CITY, SECOND_CITY, THIRD_CITY)
+
+FIRST_CITY, *_ = CITIES
+
+*_, LAST_CITY = CITIES
+
+print(_)
